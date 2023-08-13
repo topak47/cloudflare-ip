@@ -8,11 +8,17 @@
 # 使用说明
 
 auth_email="xxxx@qq.com"   #CloudFlare账户邮箱
+
 auth_key="bcdaxxxxxxxxe8b1e61704c1bc"   #CloudFlare域名下的key,位置在域名概述页面点击右下角获取api key。
+
 zone_name="qq.eu.org"   #你的主域名
+
 record_name="b"       #自动更新的二级域名前缀,例如cloudflare的cdn用b，gcore的cdn用gcore，后面是数字
+
 record_count=5        #二级域名个数，例如配置5个，则域名分别是b1、b2、b3、b4、b5。
+
 preset_lines=("CM")   #定义要抓取的线路类型，可以同时选择("CM" "CU" "CT")cm代表移动，cu代表联通，ct代表电信
+
 
 # 使用说明
 
